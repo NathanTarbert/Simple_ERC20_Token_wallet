@@ -1,10 +1,10 @@
 import './App.css';
-import Wallet from './components/wallet'
+import EthWallet from './Wallet'
 
 function App() {
   return (
     <div className="App">
-      <Wallet />
+      <EthWallet />
     </div>
   );
 }
