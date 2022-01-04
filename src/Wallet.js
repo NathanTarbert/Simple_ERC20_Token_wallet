@@ -61,7 +61,7 @@ const Wallet = () => {
 
 	}
 
-   function toFixed(x) {
+   function toFixed(x) {// converts balance to human readable
    if (Math.abs(x) < 1.0) {
       var e = parseInt(x.toString().split('e-')[1]);
       if (e) {
